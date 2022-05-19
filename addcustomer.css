@@ -1,0 +1,30 @@
+.one{
+    font-size:44px;
+    color: #915ada;
+    line-height: 1.5;
+    }
+
+    img{
+        float:right;
+         
+        }
+
+button {   
+    background-color:rgb(179, 49, 179);   
+    width: 50%;  
+     color:white;   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer;   
+      }   
+
+ 
+input[type=text], input[type=password] {   
+      
+     margin: 8px 0;  
+     padding: 12px 20px;   
+     display: inline-block;   
+     font-family: Calibri, Helvetica, sans-serif;   
+     box-sizing: border-box;   
+ }  

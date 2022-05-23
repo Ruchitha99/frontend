@@ -1,0 +1,89 @@
+body {margin:0;}
+
+.navbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  background-color: rgb(181, 232, 236);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+ .hee{
+   color: rgb(17, 32, 32);
+ }
+
+.sidebar {
+    margin-top: 15px;
+    padding: 0;
+    width: 170px;
+    background-color: #b6e7ee;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 20px;
+  
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #125561;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(43, 131, 153);
+    color: white;
+  }
+  
+  .main {
+    margin-left: 180px; /* Same as the width of the sidenav */
+    font-size: 30px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    margin-top: 45px;
+    
+  }
+  
+  div.content {
+    margin-left: 10px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }

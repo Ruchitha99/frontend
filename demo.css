@@ -5,10 +5,12 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Poppins', sans-serif;
 }
+h1{
+    color: white;
+   
+}
 .heading{
     color: white;
-    margin: 10px;
-   
 }
 .sidebar{
 position: fixed;
@@ -95,7 +97,7 @@ left: 60px;
 .home-section nav{
 display: flex;
 justify-content: space-between;
-height: 80px;
+height: 60px;
 background: #fff;
 display: flex;
 align-items: center;
